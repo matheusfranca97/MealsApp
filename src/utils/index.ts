@@ -1,5 +1,5 @@
-import { screenDimensions } from "./screenDimensions";
+import { screenUtils } from "./Screen";
 
 export const utils = {
-  screenDimensions,
+  screenUtils,
 };

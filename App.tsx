@@ -11,6 +11,8 @@ import {
 
 import Home from "@/app/home";
 import { Loading } from "@/components/loading";
+import Recipes from "@/app/recipes";
+import { CATEGORIES } from "./data/dummy-data";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -27,7 +29,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="dark" translucent={false} backgroundColor="white" />
-      <Home></Home>
+      <Recipes categoryData={CATEGORIES[1]} />
     </View>
   );
 }

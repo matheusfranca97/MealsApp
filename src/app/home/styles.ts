@@ -6,13 +6,11 @@ export const styles = StyleSheet.create({
   homeContainer: {
     flex: 1,
     flexDirection: "column",
-    //marginHorizontal: 20,
-    //backgroundColor: "blue",
   },
   headerContainer: {
     marginHorizontal: 20,
     width: "100%",
-    height: utils.screenDimensions.screenHeight / 9,
+    height: utils.screenUtils.screenHeight / 9,
     justifyContent: "flex-end",
   },
   headerText: {
